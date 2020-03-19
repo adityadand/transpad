@@ -1,0 +1,16 @@
+C:\Users\danda\source\repos\transpad\transpad\bin\Debug\transpad.exe.config
+C:\Users\danda\source\repos\transpad\transpad\bin\Debug\transpad.exe
+C:\Users\danda\source\repos\transpad\transpad\bin\Debug\transpad.pdb
+C:\Users\danda\source\repos\transpad\transpad\bin\Debug\transpad.xml
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.vbprojAssemblyReference.cache
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.Form1.resources
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.Resources.resources
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.vbproj.GenerateResource.cache
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.vbproj.CoreCompileInputs.cache
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.exe
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.xml
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.pdb
+C:\Users\danda\source\repos\transpad\transpad\bin\Debug\transpad.exe.manifest
+C:\Users\danda\source\repos\transpad\transpad\bin\Debug\transpad.application
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.exe.manifest
+C:\Users\danda\source\repos\transpad\transpad\obj\Debug\transpad.application

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="transpad.exe" version="1.0.0.0" publicKeyToken="261da82865aac136" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="iconfinder_mouse_red_69151.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="transpad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="transpad.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="transpad.exe" size="38408">
+      <assemblyIdentity name="transpad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J2b/iEkP5qJvIbZzzgWu/9CDPVvbGdSNUm8aNcIprhg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="iconfinder_mouse_red_69151.ico" size="803">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ULnVHv8rnnN8xb9rgIU2YJaK7daLi0M4L0F/Ofy7L3k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="transpad.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CKGUJ29\aditya dand" issuerKeyHash="3dfb15d5ba167658cecc475c225de18e69cfb0ea" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qO6BgDSB70ChkiDoQ744wSRRpVIGTS6W900spCDG0gs=</DigestValue></Reference></SignedInfo><SignatureValue>cH/hrSfhkCU7/Z9lAck/9qdM/ih3yTCFh5A0UY1TO06kYw+rYml3dPW9SCZNkWcS21LA6QsHMFuoYJaZwl2Sxlq4qnVmz7fKm1hoTR/js3JT7xvGDJbqqr0G4JM5kMTA4hxZ1hAklCoo+K6+trgZ4mseUwcmiZ5B33qTk3HceQA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0Fl4gI5JTFor9l7VMV7RN1rT+giOHAyYJewk0nQ+hppnmJihYD2FE8KpvirT+5YjT0A39c7IfixJREDimcVrDhk4uiX1oZTfm3qPgcn13rDRtpZtPpNnmQKIkbVloxtXG8CmMAYIqs7s+HRlnrigp02mjFtLmuIq2hI9CxcpElU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0bd2c620a42c4df7962e4d0652a55124c138be43e82092a140ef81348081eea8" Description="" Url=""><as:assemblyIdentity name="transpad.exe" version="1.0.0.0" publicKeyToken="261da82865aac136" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CKGUJ29\aditya dand</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Q6h2CneKeP3ueJiA1GvmkrXji/I7uO+nsgLHFpDDNS4=</DigestValue></Reference></SignedInfo><SignatureValue>EK4RbGyAweQcFvUX89dHEZIFoLmljMnazLjDnOF11wiMk1xLMEn04qOZeckkidFF8PjAqamxEZijdD1uDkhpQrgeYQHvVJ6AndpksYNt8BN1vTBgcTJExvRGEwuEfZAwmgkQOPR1AMSkD60DBdVEmzWEriNz+7dBQaL+1uFRRUs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0Fl4gI5JTFor9l7VMV7RN1rT+giOHAyYJewk0nQ+hppnmJihYD2FE8KpvirT+5YjT0A39c7IfixJREDimcVrDhk4uiX1oZTfm3qPgcn13rDRtpZtPpNnmQKIkbVloxtXG8CmMAYIqs7s+HRlnrigp02mjFtLmuIq2hI9CxcpElU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQUV745G9kl6pENSTn8akrGTANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAEMASwBHAFUASgAyADkAXABhAGQAaQB0AHkAYQAgAGQAYQBuAGQwHhcNMjAwMzE5MTAzMDM3WhcNMjEwMzE5MTYzMDM3WjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAEMASwBHAFUASgAyADkAXABhAGQAaQB0AHkAYQAgAGQAYQBuAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANBZeICOSUxaK/Ze1TFe0Tda0/oIjhwMmCXsJNJ0PoaaZ5iYoWA9hRPCqb4q0/uWI09AN/XOyH4sSURA4pnFaw4ZOLol9aGU35t6j4HJ9d6w0baWbT6TZ5kCiJG1ZaMbVxvApjAGCKrO7Ph0ZZ64oKdNpoxbS5riKtoSPQsXKRJVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAKuK4rm5mEYgvKOq4n/ekFYnSJQpPQ6v7FK3VgannsvemRbV7SnPZkO6520OA2UvP25No8ElpnaBHw0hR3SgONuIUv2Ejmyyo1Eoct1brG1JImaH0EeaAG1N4TISCY9vzFF0GhghpT7gXANk87oPfjifOXzuLzSJvkXVzFh6tZ4g=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
